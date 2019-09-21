@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90DED61B2336094000AD80D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DED61A2336094000AD80D7 /* AppDelegate.swift */; };
+		90DED61D2336094100AD80D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DED61C2336094100AD80D7 /* ViewController.swift */; };
+		90DED6202336094100AD80D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DED61E2336094100AD80D7 /* Main.storyboard */; };
+		90DED6222336094300AD80D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DED6212336094300AD80D7 /* Assets.xcassets */; };
+		90DED6252336094300AD80D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DED6232336094300AD80D7 /* LaunchScreen.storyboard */; };
+		90DED6302336094300AD80D7 /* CarnivalChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DED62F2336094300AD80D7 /* CarnivalChatTests.swift */; };
+		90DED63B2336094300AD80D7 /* CarnivalChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DED63A2336094300AD80D7 /* CarnivalChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90DED62C2336094300AD80D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DED60F2336094000AD80D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DED6162336094000AD80D7;
+			remoteInfo = CarnivalChat;
+		};
+		90DED6372336094300AD80D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DED60F2336094000AD80D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DED6162336094000AD80D7;
+			remoteInfo = CarnivalChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90DED6172336094000AD80D7 /* CarnivalChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarnivalChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DED61A2336094000AD80D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90DED61C2336094100AD80D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90DED61F2336094100AD80D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90DED6212336094300AD80D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90DED6242336094300AD80D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90DED6262336094300AD80D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DED62B2336094300AD80D7 /* CarnivalChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarnivalChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DED62F2336094300AD80D7 /* CarnivalChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalChatTests.swift; sourceTree = "<group>"; };
+		90DED6312336094300AD80D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DED6362336094300AD80D7 /* CarnivalChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarnivalChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DED63A2336094300AD80D7 /* CarnivalChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalChatUITests.swift; sourceTree = "<group>"; };
+		90DED63C2336094300AD80D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90DED6142336094000AD80D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DED6282336094300AD80D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DED6332336094300AD80D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90DED60E2336094000AD80D7 = {
+			isa = PBXGroup;
+			children = (
+				90DED6192336094000AD80D7 /* CarnivalChat */,
+				90DED62E2336094300AD80D7 /* CarnivalChatTests */,
+				90DED6392336094300AD80D7 /* CarnivalChatUITests */,
+				90DED6182336094000AD80D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90DED6182336094000AD80D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90DED6172336094000AD80D7 /* CarnivalChat.app */,
+				90DED62B2336094300AD80D7 /* CarnivalChatTests.xctest */,
+				90DED6362336094300AD80D7 /* CarnivalChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DED6192336094000AD80D7 /* CarnivalChat */ = {
+			isa = PBXGroup;
+			children = (
+				90DED61A2336094000AD80D7 /* AppDelegate.swift */,
+				90DED61C2336094100AD80D7 /* ViewController.swift */,
+				90DED61E2336094100AD80D7 /* Main.storyboard */,
+				90DED6212336094300AD80D7 /* Assets.xcassets */,
+				90DED6232336094300AD80D7 /* LaunchScreen.storyboard */,
+				90DED6262336094300AD80D7 /* Info.plist */,
+			);
+			path = CarnivalChat;
+			sourceTree = "<group>";
+		};
+		90DED62E2336094300AD80D7 /* CarnivalChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				90DED62F2336094300AD80D7 /* CarnivalChatTests.swift */,
+				90DED6312336094300AD80D7 /* Info.plist */,
+			);
+			path = CarnivalChatTests;
+			sourceTree = "<group>";
+		};
+		90DED6392336094300AD80D7 /* CarnivalChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90DED63A2336094300AD80D7 /* CarnivalChatUITests.swift */,
+				90DED63C2336094300AD80D7 /* Info.plist */,
+			);
+			path = CarnivalChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90DED6162336094000AD80D7 /* CarnivalChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DED63F2336094300AD80D7 /* Build configuration list for PBXNativeTarget "CarnivalChat" */;
+			buildPhases = (
+				90DED6132336094000AD80D7 /* Sources */,
+				90DED6142336094000AD80D7 /* Frameworks */,
+				90DED6152336094000AD80D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarnivalChat;
+			productName = CarnivalChat;
+			productReference = 90DED6172336094000AD80D7 /* CarnivalChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90DED62A2336094300AD80D7 /* CarnivalChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DED6422336094300AD80D7 /* Build configuration list for PBXNativeTarget "CarnivalChatTests" */;
+			buildPhases = (
+				90DED6272336094300AD80D7 /* Sources */,
+				90DED6282336094300AD80D7 /* Frameworks */,
+				90DED6292336094300AD80D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DED62D2336094300AD80D7 /* PBXTargetDependency */,
+			);
+			name = CarnivalChatTests;
+			productName = CarnivalChatTests;
+			productReference = 90DED62B2336094300AD80D7 /* CarnivalChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90DED6352336094300AD80D7 /* CarnivalChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DED6452336094300AD80D7 /* Build configuration list for PBXNativeTarget "CarnivalChatUITests" */;
+			buildPhases = (
+				90DED6322336094300AD80D7 /* Sources */,
+				90DED6332336094300AD80D7 /* Frameworks */,
+				90DED6342336094300AD80D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DED6382336094300AD80D7 /* PBXTargetDependency */,
+			);
+			name = CarnivalChatUITests;
+			productName = CarnivalChatUITests;
+			productReference = 90DED6362336094300AD80D7 /* CarnivalChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90DED60F2336094000AD80D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = CarnivalChatGroup;
+				TargetAttributes = {
+					90DED6162336094000AD80D7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					90DED62A2336094300AD80D7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 90DED6162336094000AD80D7;
+					};
+					90DED6352336094300AD80D7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 90DED6162336094000AD80D7;
+					};
+				};
+			};
+			buildConfigurationList = 90DED6122336094000AD80D7 /* Build configuration list for PBXProject "CarnivalChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90DED60E2336094000AD80D7;
+			productRefGroup = 90DED6182336094000AD80D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90DED6162336094000AD80D7 /* CarnivalChat */,
+				90DED62A2336094300AD80D7 /* CarnivalChatTests */,
+				90DED6352336094300AD80D7 /* CarnivalChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90DED6152336094000AD80D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DED6252336094300AD80D7 /* LaunchScreen.storyboard in Resources */,
+				90DED6222336094300AD80D7 /* Assets.xcassets in Resources */,
+				90DED6202336094100AD80D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DED6292336094300AD80D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DED6342336094300AD80D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90DED6132336094000AD80D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DED61D2336094100AD80D7 /* ViewController.swift in Sources */,
+				90DED61B2336094000AD80D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DED6272336094300AD80D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DED6302336094300AD80D7 /* CarnivalChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DED6322336094300AD80D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DED63B2336094300AD80D7 /* CarnivalChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90DED62D2336094300AD80D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DED6162336094000AD80D7 /* CarnivalChat */;
+			targetProxy = 90DED62C2336094300AD80D7 /* PBXContainerItemProxy */;
+		};
+		90DED6382336094300AD80D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DED6162336094000AD80D7 /* CarnivalChat */;
+			targetProxy = 90DED6372336094300AD80D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90DED61E2336094100AD80D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DED61F2336094100AD80D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90DED6232336094300AD80D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DED6242336094300AD80D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90DED63D2336094300AD80D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90DED63E2336094300AD80D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90DED6402336094300AD80D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnivalChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarnivalChat.CarnivalChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90DED6412336094300AD80D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnivalChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarnivalChat.CarnivalChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90DED6432336094300AD80D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnivalChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarnivalChat.CarnivalChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarnivalChat.app/CarnivalChat";
+			};
+			name = Debug;
+		};
+		90DED6442336094300AD80D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnivalChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarnivalChat.CarnivalChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarnivalChat.app/CarnivalChat";
+			};
+			name = Release;
+		};
+		90DED6462336094300AD80D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnivalChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarnivalChat.CarnivalChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarnivalChat;
+			};
+			name = Debug;
+		};
+		90DED6472336094300AD80D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnivalChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CarnivalChat.CarnivalChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarnivalChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90DED6122336094000AD80D7 /* Build configuration list for PBXProject "CarnivalChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DED63D2336094300AD80D7 /* Debug */,
+				90DED63E2336094300AD80D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DED63F2336094300AD80D7 /* Build configuration list for PBXNativeTarget "CarnivalChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DED6402336094300AD80D7 /* Debug */,
+				90DED6412336094300AD80D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DED6422336094300AD80D7 /* Build configuration list for PBXNativeTarget "CarnivalChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DED6432336094300AD80D7 /* Debug */,
+				90DED6442336094300AD80D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DED6452336094300AD80D7 /* Build configuration list for PBXNativeTarget "CarnivalChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DED6462336094300AD80D7 /* Debug */,
+				90DED6472336094300AD80D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90DED60F2336094000AD80D7 /* Project object */;
+}
